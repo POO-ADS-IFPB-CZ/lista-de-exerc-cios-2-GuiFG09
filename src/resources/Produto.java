@@ -1,7 +1,7 @@
 package resources;
 
 public class Produto {
-    
+    // Atributos privados
     private int codigo;
     private String nome;
     private double preco;
@@ -31,12 +31,12 @@ public class Produto {
     }
 
     public void setPreco(double preco) {
-       if (preco >=0) {
-           this.preco = preco;
-       }
-       else {
-           System.out.println("Erro: o preço não pode ser negativo.");
-       }
+        if (preco >=0) {
+            this.preco = preco;
+        }
+        else {
+            System.out.println("Erro: o preço não pode ser negativo.");
+        }
     }
 
     public void exibirInfo() {
