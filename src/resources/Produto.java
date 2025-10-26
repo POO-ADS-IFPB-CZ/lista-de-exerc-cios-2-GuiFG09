@@ -1,7 +1,6 @@
 package resources;
 
 public class Produto {
-    // Atributos privados
     private int codigo;
     private String nome;
     private double preco;
@@ -45,5 +44,6 @@ public class Produto {
         System.out.println("Preço: R$" + preco);
         System.out.println("Estoque: " + estoque + " unidades");
     }
+
 
 }
